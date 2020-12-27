@@ -1,10 +1,14 @@
 ---
 # Default theme
-oh_my_zsh_theme: robbyrussell
+oh_my_zsh_theme: powerlevel10k/powerlevel10k 
 
 # Default plugins
 oh_my_zsh_plugins:
   - git
+  - terraform
+  - vscode 
+  - zsh-autosuggestions 
+  - zsh-syntax-highlighting 
 
 # Wether to install by default for all specified users.
 # May be overridden by `oh_my_zsh_install` under each user.
